@@ -9,13 +9,30 @@
 /* Begin PBXBuildFile section */
 		04AD895A1F26D8500061CCB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD89591F26D8500061CCB5 /* main.m */; };
 		04AD895D1F26D8500061CCB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD895C1F26D8500061CCB5 /* AppDelegate.m */; };
-		04AD89601F26D8500061CCB5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD895F1F26D8500061CCB5 /* ViewController.m */; };
 		04AD89631F26D8500061CCB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AD89611F26D8500061CCB5 /* Main.storyboard */; };
 		04AD89651F26D8500061CCB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AD89641F26D8500061CCB5 /* Assets.xcassets */; };
 		04AD89681F26D8500061CCB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AD89661F26D8500061CCB5 /* LaunchScreen.storyboard */; };
 		04AD898E1F26DBF80061CCB5 /* libMicro.models.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04AD898D1F26DBF80061CCB5 /* libMicro.models.a */; };
 		04AD89BE1F271B280061CCB5 /* libMirco.const.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04AD89BD1F271B280061CCB5 /* libMirco.const.a */; };
 		04AD89C01F271B2B0061CCB5 /* libMirco.tools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04AD89BF1F271B2B0061CCB5 /* libMirco.tools.a */; };
+		04AD89C71F2728470061CCB5 /* CommonHtml5Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD89C21F2728470061CCB5 /* CommonHtml5Controller.m */; };
+		04AD89C81F2728470061CCB5 /* MTWebProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD89C41F2728470061CCB5 /* MTWebProgressLayer.m */; };
+		04AD89C91F2728470061CCB5 /* NSTimer+MTAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD89C61F2728470061CCB5 /* NSTimer+MTAddition.m */; };
+		04F283171F31ADF300E412E7 /* MTTabBarBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F283161F31ADF300E412E7 /* MTTabBarBadge.m */; };
+		04F2831C1F31B2EE00E412E7 /* MTTabBarController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04F2831B1F31B2EE00E412E7 /* MTTabBarController.bundle */; };
+		04F2831F1F31BDE500E412E7 /* MTTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F2831E1F31BDE500E412E7 /* MTTabBarItem.m */; };
+		04F283221F32B62600E412E7 /* MTTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F283211F32B62600E412E7 /* MTTabBar.m */; };
+		04F283251F32CC1800E412E7 /* MTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F283241F32CC1800E412E7 /* MTTabBarController.m */; };
+		04F283281F33015A00E412E7 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F283271F33015A00E412E7 /* BaseTabBarController.m */; };
+		04F283301F3303BA00E412E7 /* MTAsserts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F2832F1F3303BA00E412E7 /* MTAsserts.storyboard */; };
+		04F283321F3303FC00E412E7 /* MTMarket.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F283311F3303FC00E412E7 /* MTMarket.storyboard */; };
+		04F283341F33043100E412E7 /* MTLeadingInvestment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F283331F33043100E412E7 /* MTLeadingInvestment.storyboard */; };
+		04F283361F33045300E412E7 /* MTPersonal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F283351F33045300E412E7 /* MTPersonal.storyboard */; };
+		04F2833C1F33068300E412E7 /* AssertsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F2833B1F33068300E412E7 /* AssertsViewController.m */; };
+		04F2833F1F33090E00E412E7 /* MarketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F2833E1F33090E00E412E7 /* MarketViewController.m */; };
+		04F283421F33093100E412E7 /* LeadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F283411F33093100E412E7 /* LeadingViewController.m */; };
+		04F283451F33097400E412E7 /* PersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F283441F33097400E412E7 /* PersonalViewController.m */; };
+		04F283481F330ED700E412E7 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F283471F330ED700E412E7 /* BaseNavigationController.m */; };
 		A5E70C45948779BC20E3A956 /* Pods_MicroTown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D1D1A58DE451D435126698 /* Pods_MicroTown.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,8 +41,6 @@
 		04AD89591F26D8500061CCB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04AD895B1F26D8500061CCB5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04AD895C1F26D8500061CCB5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		04AD895E1F26D8500061CCB5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04AD895F1F26D8500061CCB5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		04AD89621F26D8500061CCB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04AD89641F26D8500061CCB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04AD89671F26D8500061CCB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -33,6 +48,37 @@
 		04AD898D1F26DBF80061CCB5 /* libMicro.models.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMicro.models.a; path = "../Micro.models/build/Debug-iphoneos/libMicro.models.a"; sourceTree = "<group>"; };
 		04AD89BD1F271B280061CCB5 /* libMirco.const.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMirco.const.a; path = "../Mirco.const/build/Debug-iphoneos/libMirco.const.a"; sourceTree = "<group>"; };
 		04AD89BF1F271B2B0061CCB5 /* libMirco.tools.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMirco.tools.a; path = "../Mirco.tools/build/Debug-iphoneos/libMirco.tools.a"; sourceTree = "<group>"; };
+		04AD89C11F2728470061CCB5 /* CommonHtml5Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonHtml5Controller.h; sourceTree = "<group>"; };
+		04AD89C21F2728470061CCB5 /* CommonHtml5Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonHtml5Controller.m; sourceTree = "<group>"; };
+		04AD89C31F2728470061CCB5 /* MTWebProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTWebProgressLayer.h; sourceTree = "<group>"; };
+		04AD89C41F2728470061CCB5 /* MTWebProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTWebProgressLayer.m; sourceTree = "<group>"; };
+		04AD89C51F2728470061CCB5 /* NSTimer+MTAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+MTAddition.h"; sourceTree = "<group>"; };
+		04AD89C61F2728470061CCB5 /* NSTimer+MTAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+MTAddition.m"; sourceTree = "<group>"; };
+		04F283151F31ADF300E412E7 /* MTTabBarBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTabBarBadge.h; sourceTree = "<group>"; };
+		04F283161F31ADF300E412E7 /* MTTabBarBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTabBarBadge.m; sourceTree = "<group>"; };
+		04F2831B1F31B2EE00E412E7 /* MTTabBarController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MTTabBarController.bundle; sourceTree = "<group>"; };
+		04F2831D1F31BDE500E412E7 /* MTTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTabBarItem.h; sourceTree = "<group>"; };
+		04F2831E1F31BDE500E412E7 /* MTTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTabBarItem.m; sourceTree = "<group>"; };
+		04F283201F32B62600E412E7 /* MTTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTabBar.h; sourceTree = "<group>"; };
+		04F283211F32B62600E412E7 /* MTTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTabBar.m; sourceTree = "<group>"; };
+		04F283231F32CC1800E412E7 /* MTTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTabBarController.h; sourceTree = "<group>"; };
+		04F283241F32CC1800E412E7 /* MTTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTabBarController.m; sourceTree = "<group>"; };
+		04F283261F33015A00E412E7 /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		04F283271F33015A00E412E7 /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		04F2832F1F3303BA00E412E7 /* MTAsserts.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MTAsserts.storyboard; sourceTree = "<group>"; };
+		04F283311F3303FC00E412E7 /* MTMarket.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MTMarket.storyboard; sourceTree = "<group>"; };
+		04F283331F33043100E412E7 /* MTLeadingInvestment.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MTLeadingInvestment.storyboard; sourceTree = "<group>"; };
+		04F283351F33045300E412E7 /* MTPersonal.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MTPersonal.storyboard; sourceTree = "<group>"; };
+		04F2833A1F33068200E412E7 /* AssertsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssertsViewController.h; sourceTree = "<group>"; };
+		04F2833B1F33068300E412E7 /* AssertsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssertsViewController.m; sourceTree = "<group>"; };
+		04F2833D1F33090E00E412E7 /* MarketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketViewController.h; sourceTree = "<group>"; };
+		04F2833E1F33090E00E412E7 /* MarketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketViewController.m; sourceTree = "<group>"; };
+		04F283401F33093100E412E7 /* LeadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeadingViewController.h; sourceTree = "<group>"; };
+		04F283411F33093100E412E7 /* LeadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeadingViewController.m; sourceTree = "<group>"; };
+		04F283431F33097400E412E7 /* PersonalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalViewController.h; sourceTree = "<group>"; };
+		04F283441F33097400E412E7 /* PersonalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalViewController.m; sourceTree = "<group>"; };
+		04F283461F330ED700E412E7 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		04F283471F330ED700E412E7 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		77D1D1A58DE451D435126698 /* Pods_MicroTown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MicroTown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C74FE29D6C5678F16AEB176 /* Pods-MicroTown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicroTown.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MicroTown/Pods-MicroTown.debug.xcconfig"; sourceTree = "<group>"; };
 		AD487042A192D40F201A1224 /* Pods-MicroTown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicroTown.release.xcconfig"; path = "Pods/Target Support Files/Pods-MicroTown/Pods-MicroTown.release.xcconfig"; sourceTree = "<group>"; };
@@ -74,10 +120,16 @@
 		04AD89571F26D8500061CCB5 /* MicroTown */ = {
 			isa = PBXGroup;
 			children = (
+				04F283291F33029100E412E7 /* Main */,
+				04F283131F31AD1D00E412E7 /* General */,
 				04AD895B1F26D8500061CCB5 /* AppDelegate.h */,
 				04AD895C1F26D8500061CCB5 /* AppDelegate.m */,
-				04AD895E1F26D8500061CCB5 /* ViewController.h */,
-				04AD895F1F26D8500061CCB5 /* ViewController.m */,
+				04AD89C11F2728470061CCB5 /* CommonHtml5Controller.h */,
+				04AD89C21F2728470061CCB5 /* CommonHtml5Controller.m */,
+				04AD89C31F2728470061CCB5 /* MTWebProgressLayer.h */,
+				04AD89C41F2728470061CCB5 /* MTWebProgressLayer.m */,
+				04AD89C51F2728470061CCB5 /* NSTimer+MTAddition.h */,
+				04AD89C61F2728470061CCB5 /* NSTimer+MTAddition.m */,
 				04AD89611F26D8500061CCB5 /* Main.storyboard */,
 				04AD89641F26D8500061CCB5 /* Assets.xcassets */,
 				04AD89661F26D8500061CCB5 /* LaunchScreen.storyboard */,
@@ -104,6 +156,85 @@
 				77D1D1A58DE451D435126698 /* Pods_MicroTown.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04F283131F31AD1D00E412E7 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				04F283141F31AD2D00E412E7 /* MTTarBarController */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		04F283141F31AD2D00E412E7 /* MTTarBarController */ = {
+			isa = PBXGroup;
+			children = (
+				04F2831B1F31B2EE00E412E7 /* MTTabBarController.bundle */,
+				04F283151F31ADF300E412E7 /* MTTabBarBadge.h */,
+				04F283161F31ADF300E412E7 /* MTTabBarBadge.m */,
+				04F2831D1F31BDE500E412E7 /* MTTabBarItem.h */,
+				04F2831E1F31BDE500E412E7 /* MTTabBarItem.m */,
+				04F283201F32B62600E412E7 /* MTTabBar.h */,
+				04F283211F32B62600E412E7 /* MTTabBar.m */,
+				04F283231F32CC1800E412E7 /* MTTabBarController.h */,
+				04F283241F32CC1800E412E7 /* MTTabBarController.m */,
+				04F283261F33015A00E412E7 /* BaseTabBarController.h */,
+				04F283271F33015A00E412E7 /* BaseTabBarController.m */,
+				04F283461F330ED700E412E7 /* BaseNavigationController.h */,
+				04F283471F330ED700E412E7 /* BaseNavigationController.m */,
+			);
+			name = MTTarBarController;
+			sourceTree = "<group>";
+		};
+		04F283291F33029100E412E7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				04F2832E1F3302D200E412E7 /* MTAsserts */,
+				04F2832D1F3302CE00E412E7 /* MTMarket */,
+				04F2832C1F3302C900E412E7 /* MTLeadingInvestment */,
+				04F2832A1F33029E00E412E7 /* MTPersonal */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		04F2832A1F33029E00E412E7 /* MTPersonal */ = {
+			isa = PBXGroup;
+			children = (
+				04F283351F33045300E412E7 /* MTPersonal.storyboard */,
+				04F283431F33097400E412E7 /* PersonalViewController.h */,
+				04F283441F33097400E412E7 /* PersonalViewController.m */,
+			);
+			name = MTPersonal;
+			sourceTree = "<group>";
+		};
+		04F2832C1F3302C900E412E7 /* MTLeadingInvestment */ = {
+			isa = PBXGroup;
+			children = (
+				04F283331F33043100E412E7 /* MTLeadingInvestment.storyboard */,
+				04F283401F33093100E412E7 /* LeadingViewController.h */,
+				04F283411F33093100E412E7 /* LeadingViewController.m */,
+			);
+			name = MTLeadingInvestment;
+			sourceTree = "<group>";
+		};
+		04F2832D1F3302CE00E412E7 /* MTMarket */ = {
+			isa = PBXGroup;
+			children = (
+				04F283311F3303FC00E412E7 /* MTMarket.storyboard */,
+				04F2833D1F33090E00E412E7 /* MarketViewController.h */,
+				04F2833E1F33090E00E412E7 /* MarketViewController.m */,
+			);
+			name = MTMarket;
+			sourceTree = "<group>";
+		};
+		04F2832E1F3302D200E412E7 /* MTAsserts */ = {
+			isa = PBXGroup;
+			children = (
+				04F2832F1F3303BA00E412E7 /* MTAsserts.storyboard */,
+				04F2833A1F33068200E412E7 /* AssertsViewController.h */,
+				04F2833B1F33068300E412E7 /* AssertsViewController.m */,
+			);
+			name = MTAsserts;
 			sourceTree = "<group>";
 		};
 		457617E62314A7F43F45727B /* Pods */ = {
@@ -177,8 +308,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				04AD89681F26D8500061CCB5 /* LaunchScreen.storyboard in Resources */,
+				04F283361F33045300E412E7 /* MTPersonal.storyboard in Resources */,
 				04AD89651F26D8500061CCB5 /* Assets.xcassets in Resources */,
+				04F2831C1F31B2EE00E412E7 /* MTTabBarController.bundle in Resources */,
+				04F283341F33043100E412E7 /* MTLeadingInvestment.storyboard in Resources */,
 				04AD89631F26D8500061CCB5 /* Main.storyboard in Resources */,
+				04F283301F3303BA00E412E7 /* MTAsserts.storyboard in Resources */,
+				04F283321F3303FC00E412E7 /* MTMarket.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,9 +373,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04AD89601F26D8500061CCB5 /* ViewController.m in Sources */,
+				04F283221F32B62600E412E7 /* MTTabBar.m in Sources */,
+				04AD89C91F2728470061CCB5 /* NSTimer+MTAddition.m in Sources */,
+				04F283451F33097400E412E7 /* PersonalViewController.m in Sources */,
+				04F283481F330ED700E412E7 /* BaseNavigationController.m in Sources */,
+				04AD89C71F2728470061CCB5 /* CommonHtml5Controller.m in Sources */,
+				04F283251F32CC1800E412E7 /* MTTabBarController.m in Sources */,
 				04AD895D1F26D8500061CCB5 /* AppDelegate.m in Sources */,
+				04F2833C1F33068300E412E7 /* AssertsViewController.m in Sources */,
+				04F283171F31ADF300E412E7 /* MTTabBarBadge.m in Sources */,
+				04F2833F1F33090E00E412E7 /* MarketViewController.m in Sources */,
+				04F2831F1F31BDE500E412E7 /* MTTabBarItem.m in Sources */,
+				04F283281F33015A00E412E7 /* BaseTabBarController.m in Sources */,
+				04AD89C81F2728470061CCB5 /* MTWebProgressLayer.m in Sources */,
 				04AD895A1F26D8500061CCB5 /* main.m in Sources */,
+				04F283421F33093100E412E7 /* LeadingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="UPi-Nm-zO4">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Base Navigation Controller-->
+        <scene sceneID="1A9-nf-UCx">
+            <objects>
+                <navigationController id="UPi-Nm-zO4" customClass="BaseNavigationController" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Vzl-9j-RcA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Zcg-63-3WH" kind="relationship" relationship="rootViewController" id="hPo-Jd-fXX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EzM-33-eJv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-615" y="126"/>
+        </scene>
+        <!--Personal View Controller-->
+        <scene sceneID="VeM-Ta-1EQ">
+            <objects>
+                <viewController id="Zcg-63-3WH" customClass="PersonalViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Bm0-CW-bBI"/>
+                        <viewControllerLayoutGuide type="bottom" id="yoN-fC-khQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3iv-O7-D6U">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KPn-um-gOH">
+                                <rect key="frame" x="25.5" y="312" width="323" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="点击注册，注册即送222红包">
+                                    <color key="titleColor" red="0.96300100806908839" green="0.36343283271427596" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnClicked:" destination="Zcg-63-3WH" eventType="touchUpInside" id="PF1-6g-1no"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="KPn-um-gOH" firstAttribute="centerX" secondItem="3iv-O7-D6U" secondAttribute="centerX" id="I9F-4o-p0D"/>
+                            <constraint firstItem="KPn-um-gOH" firstAttribute="centerY" secondItem="3iv-O7-D6U" secondAttribute="centerY" id="Mwi-v2-X1T"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="kV7-41-Z4W"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1RD-95-7Xx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="319" y="127"/>
+        </scene>
+    </scenes>
+</document>
